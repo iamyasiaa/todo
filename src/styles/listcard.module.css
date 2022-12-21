@@ -1,0 +1,27 @@
+.list {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 350px 350px 350px 350px 350px;
+  margin: 0 auto;
+}
+.card {
+  position: relative;
+  border: 2px #4830f0 solid;
+  border-radius: 25px;
+  background-color: #9eefe1;
+  padding: 15px;
+}
+.name {
+  padding-bottom: 7px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.description {
+  font-size: 15px;
+  font-weight: bolder;
+}
+.delete {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
